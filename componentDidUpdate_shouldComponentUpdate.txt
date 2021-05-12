@@ -1,0 +1,3 @@
+If shouldComponentUpdate() method is there in the code then it will prevent componentDidUpdate() method to run.
+If componentDidUpdate() method is inside parent component and then also inside child component, then first child component
+will run and then at last parent one as shown in the example.
